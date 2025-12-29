@@ -13,6 +13,10 @@ public class sort_0s_1s_and_2s {
         // Time complexity -> O(n)
         // Space Complexity -> O(n)
 
+        /*
+            Instead of using the HashMap we can also use tha array of size 3
+        */
+
         HashMap<Integer,Integer> map=new HashMap<>();
 
         for(int num:arr){
