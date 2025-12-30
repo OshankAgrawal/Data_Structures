@@ -39,5 +39,7 @@ public class Numbers_Containing_1_2_and_3 {
         }
 
         System.out.println(filterByDigits(arr));
+
+        obj.close();
     }
 }
